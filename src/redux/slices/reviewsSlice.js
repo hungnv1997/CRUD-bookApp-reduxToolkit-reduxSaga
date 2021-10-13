@@ -63,7 +63,7 @@ export const reviewsSlice = createSlice({
     postReviewSuccess: (state, action) => {
       console.log("Post Review Success", action.payload);
       return {
-        reviews: [...state.reviews, action.payload.data],
+        reviews: [action.payload.data, ...state.reviews],
         loading: false,
         error: false,
       };

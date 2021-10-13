@@ -16,7 +16,8 @@ function* fetchReviewsSaga(action) {
   console.log("fetchReview__________>");
   try {
     const { data } = yield call(fetchReviews);
-    const reviews = data;
+    const reviews = data.reverse();
+    console.log(">>>>>>>>>>>>>>>>>>>reviews", reviews);
     yield put(fetchReviewsSuccess({ reviews: reviews }));
   } catch (e) {
     yield put(fetchReviewsFailure({ error: e }));
