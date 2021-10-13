@@ -1,0 +1,64 @@
+{
+  "books": [
+    {
+      "id": 2,
+      "name": "Book 1",
+      "description": "Note that the development build is not optimized",
+      "category": "HISTORY"
+    },
+    {
+      "id": 3,
+      "name": "Book 2",
+      "description": "Note that the development build is not optimized",
+      "category": "HISTORY"
+    },
+    {
+      "id": "b9de5b62-7e5e-43da-8bf4-e3f04c287b45",
+      "name": "Book 3",
+      "description": "Note that the development build is not optimized",
+      "category": "MATH"
+    },
+    {
+      "id": "5f4da38e-62af-4e81-8452-8d6be55b3e67",
+      "name": "asdfsdaf",
+      "description": "sadfsadf",
+      "category": "ABC"
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "history"
+    },
+    {
+      "id": 3,
+      "name": "MATH"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Nguyen Van A",
+      "review": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam quae blanditiis, esse minima quas accusantium aliquid. Magnam vel corrupti, eveniet nam, temporibus culpa asperiores inventore aliquid, hic enim odio!",
+      "date": "10/5/2021"
+    },
+    {
+      "id": 2,
+      "name": "Nguyen Van B",
+      "review": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam quae blanditiis, esse minima quas accusantium aliquid. Magnam vel corrupti, eveniet nam, temporibus culpa asperiores inventore aliquid, hic enim odio!",
+      "date": "10/5/2019"
+    },
+    {
+      "id": 3,
+      "review": "sdfaaaaaaaaaaaaaaa",
+      "name": "Nguyen Van C",
+      "date": "10/5/2017"
+    },
+    {
+      "id": "501b75c6-d309-451a-b3b4-60d21d395519",
+      "review": "sadfsdaf",
+      "name": "asdfsadf",
+      "date": "13/10/2021"
+    }
+  ]
+}
